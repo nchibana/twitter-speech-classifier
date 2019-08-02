@@ -1,0 +1,6 @@
+,Precision,Recall,f1-Score
+False,0.9,0.93,0.92
+True,0.91,0.87,0.89
+micro avg,0.9,0.9,0.9
+macro avg,0.9,0.9,0.9
+weighted avg,0.9,0.9,0.9

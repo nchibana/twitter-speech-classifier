@@ -44,11 +44,11 @@ dbc.themes.YETI
 """
 
 external_stylesheets = [
-    dbc.themes.BOOTSTRAP,
+    dbc.themes.COSMO,
     'https://use.fontawesome.com/releases/v5.9.0/css/all.css', # for social media icons
 ]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.config.suppress_callback_exceptions = True
-app.title = 'YOUR APP NAME' # appears in browser title bar
+app.title = 'Twitter Hate Speech Detector' # appears in browser title bar
 server = app.server
