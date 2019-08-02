@@ -24,6 +24,7 @@ seaborn = "*"
 eli5 = "*"
 pdpbox = "*"
 heroku = "*"
+python-dateutil = "*"
 
 [requires]
 python_version = "3.7"
