@@ -40,7 +40,7 @@ column1 = dbc.Col(
             maxLength=280,
             style={'width': '100%', 'marginBottom': '1.2em'}
     ),
-        html.Button('Get data', id='button', style={
+        html.Button('Offensive or not?', id='button', n_clicks=1, style={
             'width':'10em', 'padding': '5px', 'marginBottom': '4em'}),
         dcc.Markdown('### Predicted Probabilities:', style={'marginBottom': '2em'}), 
         html.Div(id='prediction-label', className='lead', style={'marginBottom': '3em', 'fontWeight': 'bold', 'fontSize': '20px'}), 

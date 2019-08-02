@@ -44,7 +44,7 @@ column1 = dbc.Col(
 
             """
         ),
-        dcc.Link(dbc.Button('Get Predictions', color='primary', style=dict(marginTop=40, marginBottom=200)), href='/predictions')
+        dcc.Link(dbc.Button('Score Your Tweet', color='primary', style=dict(marginTop=40, marginBottom=200)), href='/predictions')
     ],
     md=4,
 )
