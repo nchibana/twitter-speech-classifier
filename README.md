@@ -16,6 +16,8 @@ This model builds largely on their work, as well as that of [this previous study
 
 ## Contents
 
--[Notebooks](https://github.com/nchibana/twitter-speech-classifier/tree/master/notebooks) with data processing, model training and preliminary visualizations /b
+-[Notebooks](https://github.com/nchibana/twitter-speech-classifier/tree/master/notebooks) with data processing, model training and preliminary visualizations
+
 -[Data](https://github.com/nchibana/twitter-speech-classifier/tree/master/notebooks/data) files with all original data sets
+
 -[Assets](https://github.com/nchibana/twitter-speech-classifier/tree/master/assets) folder with pickled model and word vectorizer
