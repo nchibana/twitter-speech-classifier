@@ -30,7 +30,7 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Detect Hate Speech Online
+            ## Detect Online Hate Speech
 
             ********
 
