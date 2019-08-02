@@ -30,11 +30,11 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Value Proposition
+            ## Detect Hate Speech Online
 
             ********
 
-            According to the Council on Foreign Relations, hate speech and hate crimes have increased worldwide.
+            Online platforms are tackling the problem of hate speech every day, but it can be difficult to draw the line between what is protected under free speech laws and what infringes on others' rights.
 
             * The Twitter Hate Speech detector is an app that aims to help identify hateful and offensive online speech.
 

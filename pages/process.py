@@ -79,8 +79,24 @@ column1 = dbc.Col(
 
             """
          ),
-    html.Iframe(src='data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%20src%3D%22https%3A%2F%2Fgist.github.com%2Fnchibana%2F0cc0c44c9b5a991adbc2690c97023d0c.js%22%3E%3C%2Fscript%3E%3C%2Fbody%3E', style=dict(border=0, padding=40), height=500, width=1000),
-        
+    html.Iframe(src='data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%20src%3D%22https%3A%2F%2Fgist.github.com%2Fnchibana%2F0cc0c44c9b5a991adbc2690c97023d0c.js%22%3E%3C%2Fscript%3E%3C%2Fbody%3E', style=dict(border=0, padding=40), height=300, width=1000),
+        dcc.Markdown(
+            """
+            ## Sources
+
+            ********
+
+            1. Automated Hate Speech Detection and the Problem of Offensive Language
+            Davidson, Thomas and Warmsley, Dana and Macy, Michael and Weber, Ingmar
+            Proceedings of the 11th International AAAI Conference on Web and Social Media p. 512-515. 2017 
+
+            2. Large Scale Crowdsourcing and Characterization of Twitter Abusive Behavior
+            Founta, Antigoni-Maria and Djouvas, Constantinos and Chatzakou, Despoina and Leontiadis, Ilias and Blackburn, Jeremy and Stringhini, Gianluca and Vakali, Athena and Sirivianos, Michael and Kourtellis, Nicolas
+            11th International Conference on Web and Social Media, ICWSM 2018 2018 
+
+            """
+         ),
+
     ],
     md=12,
 )
