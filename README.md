@@ -10,6 +10,6 @@ The model used to make these predictions was trained on a combination of two lab
 
 To build this model, two datasets with similar labels were combined to form a dataset with 102,840 observations.
 
-I would like to thank the research team behind this study, as they promptly gave me access to their data, which was labeled through Crowdflower.
+I would like to thank the research team behind [this study](https://arxiv.org/pdf/1802.00393.pdf), as they promptly gave me access to their data, which was labeled through Crowdflower.
 
-This model builds largely on their work, as well as that of this previous study.
+This model builds largely on their work, as well as that of [this previous study](https://aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/view/15665).
