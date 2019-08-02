@@ -18,8 +18,8 @@ from app import app
 
 # data = load('notebooks/fprtpr.joblib')
 
-x = load('notebooks/fpr2.joblib')
-y = load('notebooks/tpr2.joblib')
+x = load('pages/fpr2.joblib')
+y = load('pages/tpr2.joblib')
 
 # fig3 = px.line(data, x='fpr', y='tpr', title='Life expectancy in Canada')
 
