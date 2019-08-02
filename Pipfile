@@ -23,6 +23,7 @@ mlxtend = "*"
 seaborn = "*"
 eli5 = "*"
 pdpbox = "*"
+heroku = "*"
 
 [requires]
 python_version = "3.7"

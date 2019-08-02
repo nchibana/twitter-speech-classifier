@@ -4,6 +4,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.express as px
+import plotly.graph_objects as go
 
 from app import app
 
@@ -31,22 +32,36 @@ column1 = dbc.Col(
         
             ## Value Proposition
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+            ********
 
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
+            According to the Council on Foreign Relations, hate speech and hate crimes have increased worldwide.
 
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
+            * The Twitter Hate Speech detector is an app that aims to help identify hateful and offensive online speech.
+
+            * The model used to make these predictions was trained on a combination of two labeled datasets, with a total of 102,840 tweets.
+            
+            * 56 percent of them were labeled "Normal", 39 percent as "Offensive" and 5 percent as "Hateful".
 
             """
         ),
-        dcc.Link(dbc.Button('Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button('Get Predictions', color='primary', style=dict(marginTop=40, marginBottom=200)), href='/predictions')
     ],
     md=4,
 )
 
-gapminder = px.data.gapminder()
-fig = px.scatter(gapminder.query("year==2007"), x="gdpPercap", y="lifeExp", size="pop", color="continent",
-           hover_name="country", log_x=True, size_max=60)
+colors = ['lightslategray',] * 10
+colors[0] = 'crimson'
+
+x = ['hate', 'like','n**ga','f**king','n**gas', 'b*tch', 'as*', 'people','get', 'amp']
+y = [679, 591, 571, 552, 483, 439, 362, 346, 340, 328]
+
+fig = go.Figure(data=[go.Bar(
+    x=x,
+    y=y,
+    marker_color=colors # marker color can be a single color value or an iterable
+)])
+fig.update_layout(title_text='Most Common Words in Tweets Labeled Hateful')
+
 
 column2 = dbc.Col(
     [
