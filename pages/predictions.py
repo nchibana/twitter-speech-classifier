@@ -34,7 +34,7 @@ column1 = dbc.Col(
         dcc.Textarea(
             id='input-box',
             placeholder='Maximum length of 280 characters...',
-            value='',
+            value='Rosie is crude, rude, obnoxious and dumb - other than that I like her very much!',
             cols=50,
             rows=6,
             maxLength=280,
